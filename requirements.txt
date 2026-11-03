@@ -1,0 +1,19 @@
+torch>=2.0.0
+torch-geometric>=2.5.0
+numpy>=1.24.0
+scikit-learn>=1.3.0
+Pyfhel>=3.4.0
+ff3>=1.0.0
+shap>=0.42.0
+streamlit>=1.28.0
+plotly>=5.17.0
+pandas>=2.0.0
+scipy>=1.11.0
+matplotlib>=3.7.0
+pytest>=7.0
+
+# NOTE (Windows): Pyfhel compiles from source on first install and requires
+# MSVC C++17 Build Tools (Visual Studio Installer -> "Desktop development
+# with C++"). If unavailable, run this project inside WSL2 and switch
+# config.CKKS_BACKEND = "tenseal" (pip install tenseal — Linux/WSL2 wheels
+# only, no native Windows wheels exist).

@@ -1,0 +1,204 @@
+[
+  {
+    "round": 1,
+    "avg_accuracy": 0.6363636463880539,
+    "avg_loss": 0.6270891964435578,
+    "anomaly_score": 0.0,
+    "risk_level": "low",
+    "path_taken": "fast_path",
+    "per_client": [
+      {
+        "client_id": 0,
+        "accuracy": 0.8181818127632141,
+        "loss": 0.5647291541099548,
+        "fpe_encrypted_accuracy": "857783",
+        "fpe_encrypted_loss": "797119",
+        "explanation": "Global update improved Client 0's accuracy from 81.8% to 81.8% (+0.0pp). Update L2 norm was 2.729; path taken: fast_path.",
+        "pass_fail": "PASS"
+      },
+      {
+        "client_id": 1,
+        "accuracy": 0.4545454680919647,
+        "loss": 0.6977066397666931,
+        "fpe_encrypted_accuracy": "229049",
+        "fpe_encrypted_loss": "845490",
+        "explanation": "Global update improved Client 1's accuracy from 45.5% to 45.5% (+0.0pp). Update L2 norm was 2.729; path taken: fast_path.",
+        "pass_fail": "PASS"
+      },
+      {
+        "client_id": 2,
+        "accuracy": 0.7272727489471436,
+        "loss": 0.5583900809288025,
+        "fpe_encrypted_accuracy": "997463",
+        "fpe_encrypted_loss": "763106",
+        "explanation": "Global update improved Client 2's accuracy from 72.7% to 72.7% (+0.0pp). Update L2 norm was 2.729; path taken: fast_path.",
+        "pass_fail": "PASS"
+      },
+      {
+        "client_id": 3,
+        "accuracy": 0.5454545617103577,
+        "loss": 0.7028719782829285,
+        "fpe_encrypted_accuracy": "309282",
+        "fpe_encrypted_loss": "366007",
+        "explanation": "Global update improved Client 3's accuracy from 54.5% to 54.5% (+0.0pp). Update L2 norm was 2.729; path taken: fast_path.",
+        "pass_fail": "PASS"
+      },
+      {
+        "client_id": 4,
+        "accuracy": 0.3636363744735718,
+        "loss": 0.7365673184394836,
+        "fpe_encrypted_accuracy": "409313",
+        "fpe_encrypted_loss": "372430",
+        "explanation": "Global update improved Client 4's accuracy from 36.4% to 36.4% (+0.0pp). Update L2 norm was 2.729; path taken: fast_path.",
+        "pass_fail": "PASS"
+      },
+      {
+        "client_id": 5,
+        "accuracy": 0.8181818127632141,
+        "loss": 0.5222762823104858,
+        "fpe_encrypted_accuracy": "857783",
+        "fpe_encrypted_loss": "558812",
+        "explanation": "Global update improved Client 5's accuracy from 81.8% to 81.8% (+0.0pp). Update L2 norm was 2.729; path taken: fast_path.",
+        "pass_fail": "PASS"
+      },
+      {
+        "client_id": 6,
+        "accuracy": 0.6363636255264282,
+        "loss": 0.5956977009773254,
+        "fpe_encrypted_accuracy": "287491",
+        "fpe_encrypted_loss": "850899",
+        "explanation": "Global update improved Client 6's accuracy from 63.6% to 63.6% (+0.0pp). Update L2 norm was 2.729; path taken: fast_path.",
+        "pass_fail": "PASS"
+      },
+      {
+        "client_id": 7,
+        "accuracy": 0.7272727489471436,
+        "loss": 0.6229344606399536,
+        "fpe_encrypted_accuracy": "997463",
+        "fpe_encrypted_loss": "042750",
+        "explanation": "Global update improved Client 7's accuracy from 72.7% to 72.7% (+0.0pp). Update L2 norm was 2.729; path taken: fast_path.",
+        "pass_fail": "PASS"
+      },
+      {
+        "client_id": 8,
+        "accuracy": 0.7272727489471436,
+        "loss": 0.6024281978607178,
+        "fpe_encrypted_accuracy": "997463",
+        "fpe_encrypted_loss": "294645",
+        "explanation": "Global update improved Client 8's accuracy from 72.7% to 72.7% (+0.0pp). Update L2 norm was 2.729; path taken: fast_path.",
+        "pass_fail": "PASS"
+      },
+      {
+        "client_id": 9,
+        "accuracy": 0.5454545617103577,
+        "loss": 0.6672901511192322,
+        "fpe_encrypted_accuracy": "309282",
+        "fpe_encrypted_loss": "000257",
+        "explanation": "Global update improved Client 9's accuracy from 54.5% to 54.5% (+0.0pp). Update L2 norm was 2.729; path taken: fast_path.",
+        "pass_fail": "PASS"
+      }
+    ],
+    "elapsed_sec": 0.18799543380737305
+  },
+  {
+    "round": 2,
+    "avg_accuracy": 0.6636363744735718,
+    "avg_loss": 0.6001380950212478,
+    "anomaly_score": 1.0,
+    "risk_level": "high",
+    "path_taken": "full_defense",
+    "per_client": [
+      {
+        "client_id": 0,
+        "accuracy": 0.8181818127632141,
+        "loss": 0.5201786160469055,
+        "fpe_encrypted_accuracy": "857783",
+        "fpe_encrypted_loss": "283278",
+        "explanation": "Global update improved Client 0's accuracy from 81.8% to 81.8% (+0.0pp). Update L2 norm was 1.179; path taken: full_defense.",
+        "pass_fail": "PASS"
+      },
+      {
+        "client_id": 1,
+        "accuracy": 0.6363636255264282,
+        "loss": 0.6635475754737854,
+        "fpe_encrypted_accuracy": "287491",
+        "fpe_encrypted_loss": "267582",
+        "explanation": "Global update improved Client 1's accuracy from 45.5% to 63.6% (+18.2pp). Update L2 norm was 1.179; path taken: full_defense.",
+        "pass_fail": "PASS"
+      },
+      {
+        "client_id": 2,
+        "accuracy": 0.7272727489471436,
+        "loss": 0.5182725787162781,
+        "fpe_encrypted_accuracy": "997463",
+        "fpe_encrypted_loss": "253736",
+        "explanation": "Global update improved Client 2's accuracy from 72.7% to 72.7% (+0.0pp). Update L2 norm was 1.179; path taken: full_defense.",
+        "pass_fail": "PASS"
+      },
+      {
+        "client_id": 3,
+        "accuracy": 0.5454545617103577,
+        "loss": 0.7101649641990662,
+        "fpe_encrypted_accuracy": "309282",
+        "fpe_encrypted_loss": "103383",
+        "explanation": "Global update improved Client 3's accuracy from 54.5% to 54.5% (+0.0pp). Update L2 norm was 1.179; path taken: full_defense.",
+        "pass_fail": "PASS"
+      },
+      {
+        "client_id": 4,
+        "accuracy": 0.3636363744735718,
+        "loss": 0.7177557349205017,
+        "fpe_encrypted_accuracy": "409313",
+        "fpe_encrypted_loss": "937469",
+        "explanation": "Global update improved Client 4's accuracy from 36.4% to 36.4% (+0.0pp). Update L2 norm was 1.179; path taken: full_defense.",
+        "pass_fail": "PASS"
+      },
+      {
+        "client_id": 5,
+        "accuracy": 0.8181818127632141,
+        "loss": 0.4826826751232147,
+        "fpe_encrypted_accuracy": "857783",
+        "fpe_encrypted_loss": "900688",
+        "explanation": "Global update improved Client 5's accuracy from 81.8% to 81.8% (+0.0pp). Update L2 norm was 1.179; path taken: full_defense.",
+        "pass_fail": "PASS"
+      },
+      {
+        "client_id": 6,
+        "accuracy": 0.7272727489471436,
+        "loss": 0.5654628276824951,
+        "fpe_encrypted_accuracy": "997463",
+        "fpe_encrypted_loss": "061023",
+        "explanation": "Global update improved Client 6's accuracy from 63.6% to 72.7% (+9.1pp). Update L2 norm was 1.179; path taken: full_defense.",
+        "pass_fail": "PASS"
+      },
+      {
+        "client_id": 7,
+        "accuracy": 0.7272727489471436,
+        "loss": 0.5926418900489807,
+        "fpe_encrypted_accuracy": "997463",
+        "fpe_encrypted_loss": "281767",
+        "explanation": "Global update improved Client 7's accuracy from 72.7% to 72.7% (+0.0pp). Update L2 norm was 1.179; path taken: full_defense.",
+        "pass_fail": "PASS"
+      },
+      {
+        "client_id": 8,
+        "accuracy": 0.7272727489471436,
+        "loss": 0.5801718235015869,
+        "fpe_encrypted_accuracy": "997463",
+        "fpe_encrypted_loss": "972364",
+        "explanation": "Global update improved Client 8's accuracy from 72.7% to 72.7% (+0.0pp). Update L2 norm was 1.179; path taken: full_defense.",
+        "pass_fail": "PASS"
+      },
+      {
+        "client_id": 9,
+        "accuracy": 0.5454545617103577,
+        "loss": 0.6505022644996643,
+        "fpe_encrypted_accuracy": "309282",
+        "fpe_encrypted_loss": "209215",
+        "explanation": "Global update improved Client 9's accuracy from 54.5% to 54.5% (+0.0pp). Update L2 norm was 1.179; path taken: full_defense.",
+        "pass_fail": "PASS"
+      }
+    ],
+    "elapsed_sec": 0.1825399398803711
+  }
+]

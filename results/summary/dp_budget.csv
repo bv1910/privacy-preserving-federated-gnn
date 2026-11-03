@@ -1,0 +1,2 @@
+sigma,sensitivity,delta,epsilon_per_round,rounds_composed,epsilon_total_basic_composition,note
+0.01,1.0,1e-05,484.4805262605389,5,2422.4026313026943,rounds_composed = max Full-Defense rounds in any single final run (each run is one training job); basic composition.

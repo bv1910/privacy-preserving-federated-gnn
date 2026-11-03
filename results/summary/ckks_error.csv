@@ -1,0 +1,2 @@
+ckks_max_abs_err_mean,ckks_max_abs_err_max,ckks_mean_abs_err_mean,ckks_mean_abs_err_max,ckks_rmse_mean,ckks_rmse_max,ckks_rel_l2_err_mean,ckks_rel_l2_err_max,n_round_measurements,ciphertexts_per_client,poly_modulus_degree,scale_bits,qi_sizes,backend
+2.8383083181036932e-06,4.989998611849844e-06,2.851618775636175e-07,2.925859404233687e-07,4.0318203958259977e-07,4.146540641043376e-07,9.401273120179017e-06,9.762296405978264e-06,400,4,8192,30,"[60, 30, 30, 60]",pyfhel
