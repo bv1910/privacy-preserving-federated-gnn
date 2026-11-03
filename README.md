@@ -175,18 +175,5 @@ The project uses the Breast Cancer Wisconsin (Diagnostic) dataset (WDBC), contai
 
 The dataset is used for research and educational experimentation.
 
-## Disclaimer
-
-This project is intended for academic research and educational purposes only. It is not a clinically validated diagnostic system and must not be used for medical diagnosis or treatment decisions.
-
-## Future Improvements
-
-- Explore stronger privacy-preserving aggregation strategies.
-- Improve robustness against advanced adversarial attacks.
-- Evaluate performance on larger and more diverse datasets.
-- Extend explainability and privacy auditing.
-- Explore deployment in distributed healthcare environments.
 
 
-
-⭐ If you find this project interesting, consider giving the repository a star!
